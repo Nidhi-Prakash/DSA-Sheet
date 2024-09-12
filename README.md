@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+## Project Overview: DSA Learning Sheet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi, my name is Nidhi Prakash, and today I’m going to walk you through my DSA Learning Sheet project. It’s a tool built with React, Tailwind CSS and JavaScript that helps users track their progress while learning Data Structures and Algorithms through various problems and tutorials. Let’s dive in.
 
-## Available Scripts
+### Theme Toggle & Dark Mode
 
-In the project directory, you can run:
+The application starts with a login or registration system. Depending on the user's preference, they can switch between light mode and dark mode, thanks to a theme toggle button. The app is responsive, ensuring a great user experience across devices.
 
-### `npm start`
+### User Authentication, Encryption, & Decryption
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The authentication system allows users to register or log in. When a user registers, their password is encrypted using Base64 encoding, which adds a layer of security to the stored data. During login, the password is decrypted to verify the user's credentials, ensuring secure authentication while keeping things simple.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### DSA Topic List
 
-### `npm test`
+Once logged in, users can see different topics related to data structures and algorithms. For example, we have ‘Arrays’ and ‘Linked Lists’, each containing a list of subtopics. These subtopics come with problem links, YouTube tutorials, and articles, so users can easily access learning resources.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tracking Progress
 
-### `npm run build`
+For each subtopic, there’s a checkbox that allows users to mark problems as completed. This data is stored locally for each user, so when they log back in, their progress is saved. The difficulty level of each problem is also displayed for easy reference.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Logout Functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+When users are done, they can log out with the ‘Logout’ button. Their progress will be saved for the next session, and the app will reset to its initial state.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Conclusion
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+That’s a brief overview of my project. This tool is aimed at helping learners track their DSA journey efficiently with a focus on security, easy access to resources, and a clean, user-friendly interface. Thanks for checking it out!
